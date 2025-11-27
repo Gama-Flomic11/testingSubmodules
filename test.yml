@@ -7,7 +7,7 @@ env:
   FILES: "*.md" # seperate multiple entries with ,
   FILES_NEW: "*.md*" # seperate multiple entries with ,
   # EXTRA: mv LICENSE LICENSE_some_repo # do an extra command like renaming
-  USERNAME: ${{ github.Gama-Flomic11 }}
+  USERNAME: ${{ github.actor }}
   ADDRESS_SUFFIX: users.noreply.github.com
   TOKEN_NAME: ${{ secrets.PRIVATE_REPO_TOKEN }} # name of token defined in the target repo's settings, needed for private repos
   # SOURCE_BRANCH: source_alternate_branch # uncomment to takes files from a non default source branch
